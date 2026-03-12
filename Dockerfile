@@ -2,7 +2,7 @@ FROM eclipse-temurin:17-jdk-alpine
 
 WORKDIR /app
 
-COPY target/cse-docker-deploy-0.0.1-SNAPSHOT.jar app.jar
+COPY target/awsdeploy2-0.0.1-SNAPSHOT.jar
 
 EXPOSE 8088
 
